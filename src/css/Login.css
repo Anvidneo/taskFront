@@ -1,0 +1,32 @@
+.overlay {
+    background-color: #0F0F0F;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    mix-blend-mode: normal;
+}
+
+.card-form {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    background-color: #212121;
+    color: white;
+}
+
+.login-button {
+    border-color: #44f76b;
+    background-color: #3ECD5E;
+    color: white;
+}
+
+.login-button:hover {
+    border-color: #3ECD5E;
+    background-color: #44f76b;
+    color: #212121;
+}
+
+.login-button:active {
+    border-color: #3ECD5E !important;
+    background-color: #44f76b !important;
+    color: #212121 !important;
+}
+

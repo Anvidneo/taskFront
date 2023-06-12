@@ -1,0 +1,254 @@
+.card-form {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    margin: 0% 5% 0% 5%;
+}
+
+.navbar{
+    background-color: #3ecd5e;
+}
+
+.navbar-title{
+    color: #FFF !important;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navbar-text{
+    color: #FFF !important;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 240px);
+}
+
+.ag-format-container {
+    width: 1142px;
+    margin: 0 auto;
+}
+
+
+body {
+    background-color: #0f0f0f;
+}
+
+.ag-courses_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+    padding: 2% 0;
+}
+
+.ag-courses_item {
+    -ms-flex-preferred-size: calc(33.33333% - 30px);
+    flex-basis: calc(33.33333% - 30px);
+
+    margin: 0 15px 30px;
+
+    overflow: hidden;
+
+    border-radius: 28px;
+}
+
+.ag-courses-item_link {
+    display: block;
+    padding: 30px 20px;
+    background-color: #212121;
+
+    overflow: hidden;
+
+    position: relative;
+}
+
+.ag-courses-item_link:hover,
+.ag-courses-item_link:hover .ag-courses-item_date {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.ag-courses-item_link:hover .ag-courses-item_bg {
+    -webkit-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+}
+
+.ag-courses-item_title {
+    min-height: 87px;
+
+    overflow: hidden;
+
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFF;
+
+    z-index: 2;
+    position: relative;
+}
+
+.ag-courses-item_description {
+    min-height: 87px;
+
+    font-size: 20px;
+    color: #FFF;
+
+    z-index: 2;
+    position: relative;
+}
+
+.ag-courses-item_date-box {
+    font-size: 18px;
+    color: #FFF;
+
+    z-index: 2;
+    position: relative;
+}
+
+.ag-courses-item_date {
+    font-weight: bold;
+    color: #3ecd5e;
+
+    -webkit-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease
+}
+
+.ag-courses-item_bg {
+    height: 128px;
+    width: 128px;
+    background-color: #3e8fcd;
+
+    z-index: 1;
+    position: absolute;
+    top: -75px;
+    right: -75px;
+
+    border-radius: 50%;
+
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.ag-courses_item:nth-child(2n) .ag-courses-item_bg {
+    background-color: #f9b234;
+}
+
+.ag-courses_item:nth-child(3n) .ag-courses-item_bg {
+    background-color: #e44002;
+}
+
+.ag-courses_item:nth-child(4n) .ag-courses-item_bg {
+    background-color: #952aff;
+}
+
+.ag-courses_item:nth-child(5n) .ag-courses-item_bg {
+    background-color: #cd3e94;
+}
+
+.ag-courses_item:nth-child(6n) .ag-courses-item_bg {
+    background-color: #4c49ea;
+}
+
+
+
+@media only screen and (max-width: 979px) {
+    .ag-courses_item {
+        -ms-flex-preferred-size: calc(50% - 30px);
+        flex-basis: calc(50% - 30px);
+    }
+
+    .ag-courses-item_title {
+        font-size: 24px;
+    }
+
+    .ag-courses-item_description {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .ag-format-container {
+        width: 96%;
+    }
+
+}
+
+@media only screen and (max-width: 639px) {
+    .ag-courses_item {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+
+    .ag-courses-item_title {
+        min-height: 72px;
+        line-height: 1;
+
+        font-size: 24px;
+    }
+
+    .ag-courses-item_description {
+        min-height: 72px;
+        line-height: 1;
+
+        font-size: 14px;
+    }
+
+    .ag-courses-item_link {
+        padding: 22px 40px;
+    }
+
+    .ag-courses-item_date-box {
+        font-size: 16px;
+    }
+}
+
+
+.task-button {
+    border-color: #44f76b;
+    background-color: #3ECD5E;
+    color: white;
+}
+
+.task-button:hover {
+    border-color: #3ECD5E;
+    background-color: #44f76b;
+    color: #212121;
+}
+
+.task-button:active {
+    border-color: #3ECD5E !important;
+    background-color: #44f76b !important;
+    color: #212121 !important;
+}
+
+.cancel-button {
+    border-color: #404040;
+    background-color: #2f2f2f;
+    color: white;
+}
+
+.cancel-button:hover {
+    border-color: #2f2f2f;
+    background-color: #404040;
+    color: #e4e4e4;
+}
+
+.cancel-button:active {
+    border-color: #2f2f2f !important;
+    background-color: #404040 !important;
+    color: #e4e4e4 !important;
+}
+
+.title-from{
+    margin-bottom: -12%;
+}
+
+.toggle-switch{
+    margin-top: 2%;
+}
